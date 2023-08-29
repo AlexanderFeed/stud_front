@@ -1,7 +1,6 @@
 {
   "name": "students-front",
   "version": "0.1.0",
-  "type": "module",
   "repository": "https://zhuk.k-lab.su/zhuk_team/students-front",
   "author": "AlexanderFeed <alex1mishchenko@gmail.com>",
   "license": "MIT",
