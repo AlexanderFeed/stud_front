@@ -1,0 +1,24 @@
+table {
+  border: 1px solid lightgray;
+  width: 1319px;/*не оч тоже*/
+  text-align: center;
+}
+
+tbody {
+  border-bottom: 1px solid lightgray;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+th {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+tfoot, tfoot th {
+  color: gray;
+  font-weight: normal;
+}
