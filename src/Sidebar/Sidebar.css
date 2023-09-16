@@ -1,10 +1,35 @@
 .sidebar {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.allbutton{ 
+  display: flex;
+  right: 0;
   flex-direction: column;
-  width: 200px;
-  margin: auto;
-  height: 100vh;
-  position: relative;
-  background-color: white;
-  float: right;
+  width: 20%;
+  flex-shrink: 3;
+}
+
+.welcome{
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 80%;
+}
+
+.button { 
+  margin: 10px 0px;
+  min-width: 100px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 0;
+  border-radius: 20px;
+  background: black;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 20px 20px;
 }
