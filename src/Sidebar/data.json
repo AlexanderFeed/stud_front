@@ -1,0 +1,265 @@
+{
+    "code": "Ok",
+    "info": [
+        {
+            "personalData": {
+                "firstname": "Дмитрий",
+                "lastname": "Иванов",
+                "patronymic": "Павлович",
+                "lastnameInitials": "Иванов Д.П."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89185555555",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "dmitriev@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@dmitriev_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/dmitriev"
+            }
+        },
+        {
+            "personalData": {
+                "firstname": "Иван",
+                "lastname": "Иванов",
+                "patronymic": "Иванович",
+                "lastnameInitials": "Иванов И.И."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89181111111",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "ivanov@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@ivanov_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/ivanov"
+            }
+        },
+        {
+            "personalData": {
+                "firstname": "Анна",
+                "lastname": "Козлова",
+                "patronymic": "Сергеевна",
+                "lastnameInitials": "Козлова А.С."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89186666666",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "kozlova@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@kozlova_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/kozlova"
+            }
+        },
+        {
+            "personalData": {
+                "firstname": "Ольга",
+                "lastname": "Морозова",
+                "patronymic": "Дмитриевна",
+                "lastnameInitials": "Морозова О.Д."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89180000000",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "morozova@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@morozova_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/morozova"
+            }
+        },
+        {
+            "personalData": {
+                "firstname": "Артем",
+                "lastname": "Новиков",
+                "patronymic": "Игоревич",
+                "lastnameInitials": "Новиков А.И."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89189999999",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "novikov@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@novikov_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/novikov"
+            }
+        },
+        {
+            "personalData": {
+                "firstname": "Сергей",
+                "lastname": "Павлов",
+                "patronymic": "Владимирович",
+                "lastnameInitials": "Павлов С.В."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89187777777",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "pavlov@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@pavlov_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/pavlov"
+            }
+        },
+        {
+            "personalData": {
+                "firstname": "Екатерина",
+                "lastname": "Петрова",
+                "patronymic": "Алексеевна",
+                "lastnameInitials": "Петрова Е.А."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89182222222",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "petrova@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@petrova_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/petrova"
+            }
+        },
+        {
+            "personalData": {
+                "firstname": "Алексей",
+                "lastname": "Смирнов",
+                "patronymic": "Михайлович",
+                "lastnameInitials": "Смирнов А.М."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89183333333",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "smirnov@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@smirnov_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/smirnov"
+            }
+        },
+        {
+            "personalData": {
+                "firstname": "Мария",
+                "lastname": "Соколова",
+                "patronymic": "Андреевна",
+                "lastnameInitials": "Соколова М.А."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89184444444",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "sokolova@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@sokolova_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/sokolova"
+            }
+        },
+        {
+            "personalData": {
+                "firstname": "Елена",
+                "lastname": "Федорова",
+                "patronymic": "Александровна",
+                "lastnameInitials": "Федорова Е.А."
+            },
+            "fcontact": {
+                "fphone": {
+                    "phone": "89188888888",
+                    "hasPhone": true
+                },
+                "femail": {
+                    "email": "fedorova@example.com",
+                    "hasEmail": null
+                },
+                "ftelegram": {
+                    "telegram": "@fedorova_telegram",
+                    "hasTelegram": true
+                }
+            },
+            "fgit": {
+                "hasGit": true,
+                "git": "https://github.com/fedorova"
+            }
+        }
+    ]
+}
