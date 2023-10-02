@@ -12,7 +12,10 @@
     monospace;
 }
 
-.bestStud
+.bestStud {
+  display: flex;
+  margin: auto;
+}
 
 .end{
   text-align: center;

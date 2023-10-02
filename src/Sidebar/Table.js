@@ -1,16 +1,30 @@
 
-import React from 'react'
+import React, {useState} from 'react'
 import JsonData from './data.json'
 import "./Table.css"
- function Table(){
+export default function Table(){ 
+    var contact = "";
+    var count = 0;
     const DisplayData=JsonData.info.map(
         (info)=>{
+            if (info.fcontact.ftelegram.hasTelegram === true){
+                contact =(info.fcontact.ftelegram.telegram)
+
+            }
+            else if (info.fcontact.femail.hasEmail === null){
+                contact =(info.fcontact.femail.email)
+            }
+            else if (info.fcontact.fphone.hasPhone === true){
+                contact =(info.fcontact.fphone.phone)
+            }
+            count=count + 1;
             return(
                 <tr>
-                    <td>{info.personalData.firstname}</td>
-                    <td>{info.personalData.lastname}</td>
-                    <td>{info.fcontact.ftelegram.telegram}</td>
+                    <td>{count}</td>
+                    <td>{info.personalData.lastnameInitials}</td>
                     <td>{info.fgit.git}</td>
+                    <td>{contact}</td>
+                    
                 </tr>
             )
         }
@@ -21,10 +35,10 @@ import "./Table.css"
             <table id="table" className="table">
                 <thead>
                     <tr>
-                    <th>Имя</th>
+                    <th>ID</th>
                     <th>Фамилия</th>
-                    <th>Контакт</th>
                     <th>Гит</th>
+                    <th>Контакты</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -39,4 +53,3 @@ import "./Table.css"
     )
  }
  
- export default Table;

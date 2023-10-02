@@ -4,8 +4,7 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <header class="header" >
-      <h1></h1>
+    <header className="header" >
       <button className="button">
         Студенты
       </button>
